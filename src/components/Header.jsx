@@ -1,6 +1,8 @@
 const styles = {
     fontSize: '30px',
-    color: 'rgba(10, 10, 10, 0.85)',
+    color: '#ff8000',
+    padding: '20px 0',
+    margin: '0',
 };
 
 const Header = () => {

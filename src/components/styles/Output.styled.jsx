@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const StyledOutput = styled.div`
     width: 100%;
     height: 100px;
-    background-color: rgba(220, 220, 220, 1);
     display: flex;
     justify-content: flex-end;
     align-items: end;
@@ -11,8 +10,10 @@ export const StyledOutput = styled.div`
     margin-bottom: 5px;
 
     h1 {
-        margin: 0 10px 10px 0;
+        margin: 0 10px 10px 5px;
         font-size: 40px;
-        color: rgba(10, 10, 10, 0.85);
+        color: rgb(245, 245, 245);
+        padding-left: 20px;
+        overflow-x: auto;
     }
 `;
